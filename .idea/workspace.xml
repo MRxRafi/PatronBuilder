@@ -4,21 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="506b9d32-78cb-433c-b7ed-2c631931578c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completo/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completo/builders/CocheBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completo/builders/CocheDescapotableBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completo/builders/CocheFurgonetaBuilder.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/completo/builders/FabricaCochesDirectora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/completo/FabricaCochesDirectora.java" afterDir="false" />
+    <list default="true" id="506b9d32-78cb-433c-b7ed-2c631931578c" name="Changes" comment="Patron Builder sencillo y comenzar el completo">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/CocheBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/interfaces/ID.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/ICocheBuilder.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -32,17 +35,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "ignore.virus.scanning.warn.message": "true",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager">
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="interfaces" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.interfaces.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="completo.Main" />
       <module name="PatronBuilder" />
@@ -56,9 +64,37 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="basico.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="basico.Main" />
+      <module name="PatronBuilder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="basico.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="interfaces.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Main" />
+      <module name="PatronBuilder" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="interfaces.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.interfaces.Main" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="Application.basico.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -79,5 +115,9 @@
       <updated>1709117265059</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Patron Builder sencillo y comenzar el completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Patron Builder sencillo y comenzar el completo" />
   </component>
 </project>
